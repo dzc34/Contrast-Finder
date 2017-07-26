@@ -1,8 +1,10 @@
-Package: asqatasun
+Package: contrast-finder-webapp
 Architecture: all
-Depends: tomcat7, mysql-server
+Depends: tomcat7, libspring-instrument-java
 Section: java
 Priority: extra
-Description: Web site analyzer, used for web accessibility and SEO
- Asqatasun is an open-source web site analyzer, used for
- web accessibility (a11y) and Search Engine Optimization (SEO).
+Description: Finds correct color contrasts for web accessibility (a11y, WCAG)
+ Contrast-Finder is a tool which computes the contrast between two colors.
+ (background, foreground) and checks if the contrast is valid. When the
+ contrast is not valid, the main target is to suggest some correct colors
+ contrasts.
